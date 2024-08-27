@@ -48,7 +48,6 @@ body {
 
     top: 100px;
     left: 100px;
-
 }
 
 
@@ -74,7 +73,7 @@ body {
 
 #bottom-child01, #bottom-child02, #bottom-child03 {
 
-    position: absolute;
+    position: relative;
     width: 400px;
     height: 100px;
     background-color: #e5dcf0;
@@ -88,14 +87,16 @@ body {
 }
 
 #bottom-child02 {
-    top: 100px;
+    top: -16px;
     left: 200px;
+    
 
 }
 
 #bottom-child03 {
-    top: 200px;
+    top: -32px;
     left: 400px;
+
 }
 
 
