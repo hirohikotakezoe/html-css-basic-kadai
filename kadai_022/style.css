@@ -15,18 +15,21 @@ a,p{
     font-size: 20px;
 }
 
-#parent{
+#parent  {
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
-    justify-items: center;
+    justify-content: center;
 }
 
 #contents{
-
-    display: inline-block;  
-    @media screen {
-
+    flex:1 1 30%;
+    box-sizing: border-box;
+    margin: 10px;
 }
 
+
+/* @media screen and (max-width:700px) {}  */
 
 header{
     margin: 0px auto 20px;
@@ -54,7 +57,4 @@ footer{
     margin: 0px auto 10px;
     background-color: rgb(244, 79, 79);
     color: rgb(255,255,255);
-
-
 }
-
