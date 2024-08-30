@@ -22,7 +22,7 @@ a,p{
     justify-content: center;
 }
 
-#contents{
+.contents{
     flex:1 1 30%;
     box-sizing: border-box;
     margin: 10px;
