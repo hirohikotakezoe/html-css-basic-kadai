@@ -18,6 +18,11 @@ header{
     margin-bottom: 20px;
     background-color: rgb(244, 79, 79);
 }
+h1{
+    color: rgb(255, 255, 255);
+
+}
+
 
 main{
     padding: 10px;
@@ -69,12 +74,10 @@ h2{
     h2{
         font-size: 30px;
 
-    }
-
-}
-     
+    } 
    p{
     font-size: 25px;
+   }
 }
 
 
@@ -98,3 +101,12 @@ footer{
     background-color: rgb(244, 79, 79);
     color: rgb(255,255,255);
 }
+
+a:visited{
+    color: rgb(193,234,251);
+}
+a:hover{
+    color: rgb(245, 178, 168);
+
+}
+
