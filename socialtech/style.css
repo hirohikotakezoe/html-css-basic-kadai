@@ -1,0 +1,41 @@
+p,a,h1,h2,h3,div,body{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-size: 15px;
+
+}
+
+body{
+    font-family: "Source Sans Pro", "Hiragino Kaku Gothic ProN", Meiryo, Arial, sans-serif;
+    max-width: 1080px;
+    margin:0 auto;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+a{
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+
+
+
+
+
+
+
+
+
