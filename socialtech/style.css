@@ -126,31 +126,110 @@ h3{
 /* ミッション */
 
 #mission{
-    margin: 80px auto;
-    /* display: flex; */
-    justify-content: space-between;
-    width: 800px;
+    width: 90%;
+    max-width: 1080px;
+    margin: 80px auto
 }
 
 #mission-flex{
     display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
     margin: 20px;
 }
 
 #mission-flex > div {
-    width: 50%;
+    min-width: 300px;
     margin: 20px;
 }
 
 #mission-photo{
-    width: 100%
+    width: 100%;
+    height: auto;
 }
 
 #s2dgs{
     margin-top: 50px;
     width: 100%;
+    height: auto;
+
 }
 /* プロダクト */
+
+.product-flex{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.product-left{
+    width: 50%;
+    margin-right: 20px;
+    margin-top: 0px;
+}
+.product-right{
+    width: 50%;
+    margin-right: 20px;
+    margin-top: 1380px;
+}
+#produt-left > div{
+    position:relative;
+    height: 480px;
+    margin-right:20px;
+}
+
+#product-right > div{
+    position:relative;
+    height: 480px;
+    margin-left: 20px;
+}
+
+.product-photo{
+    width: 100%;
+}
+
+.product-explain{
+    background-color: #ffffff;
+    position: relative;
+    left: 0px;
+    bottom: 100px;
+    margin: 0px 40px;
+    padding: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.05);
+
+}
+
+.product-explain > span{
+    color:#2710d5;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0;
+}
+
+.product-explain > h3{
+    margin: 5px 0;
+}
+
+.product-explain > p{
+    font-size: 14px;
+    margin: 0;
+}
+
+#product-more {
+    text-align: center;
+    margin-top: 0px;
+}
+#product-more a{
+    position: relative;
+    bottom: -42px;
+}
+
+
+
+
+
+
+
 
 
 
