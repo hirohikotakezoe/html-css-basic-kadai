@@ -207,7 +207,8 @@ h3{
     background-color: #ffffff;
     position: relative;
     /* なんでここにposition:relativeなの？ */
-    /* relative のボトムからの距離を下のそれで指定。結果写真とテキストが重なった感じにできる */
+    /* relative のボトムからの距離を下のそれで指定。結果写真とテキストが重なった感じにできる。
+    その為にrelativeの設定が必要 */
     left: 0px;
     bottom: 100px;
     margin: 10px 40px 10px;
