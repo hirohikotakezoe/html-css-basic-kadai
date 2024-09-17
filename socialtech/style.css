@@ -278,6 +278,24 @@ h3{
 }
 
 
+/* ここからビジョン */
+#vision{
+    margin: 80px auto;
+}
+
+#vision > div{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.vision-box{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 30px;
+    position: relative;
+    box-sizing: border-box;
+}
 
 
 
