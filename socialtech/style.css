@@ -180,7 +180,7 @@ h3{
     width: 100%;
     margin-left: 20px;
     margin-top: 150px;
-    /* margin-bottom: 150px; */
+    /* margin-bottom: -150px; */
     /* マージンを定義するならここじゃないかな？しかも、margine-bottom　-150px */
 }
 #produt-left > div{
@@ -191,10 +191,10 @@ h3{
 
 #product-right > div{
     top: 0px;
-    height: 480px;
+    height: 10px;
     margin-left: 20px;
     margin-top: 0px;
-    margin-bottom: 150px;
+    /* margin-bottom: 150px; */
     /* なんでここにmargin-bottomが必要なのか分からない。入れるとしても-150pxじゃないのかな？*/
     /* 上の写真と下の写真を分割するときに必要なマージン　by先生 */
 }
@@ -398,20 +398,80 @@ h3{
     font-weight: bold;
 }
 
+.contact-textbox{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom-color: #707070;
+    border-bottom-width: 1px;
+    border-style: solid;
+    background-color: #fafafa;
+    width: 400px;
+    height: 56px;
+}
+.contact-textarea{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom-color: #707070;
+    border-bottom-width: 1px;
+    border-style: solid;
+    background-color: #fafafa;
+    width: 400px;
+    height: 200px;
+}
 
+#contact dt {
+    font-weight: bold;
+  }
+  
+  #contact dd {
+    margin: 0 0 16px 0;
+  }
+  
+  #contact dd p {
+    margin: 0;
+  }
+  
+  #contact dd ul {
+    padding-left: 0;
+  }
+  
+  #contact dd li {
+    margin-bottom: 0;
+    list-style: none;
+  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  footer{
+    background-color: #0d0d0d;
+    text-align: center;
+    padding: 80px 80px 30px 80px;
+  }
+  #footer-logo{
+    margin-bottom: 30px;
+  }
+  
+#sns-footer{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+#sns-footer a{
+    margin-right: 30px;
+}
+#copyright{
+    color: #fff;
+    margin: 0;
+}
+#footer-link{
+    margin-bottom: 50px;
+}
+footer:link > a{
+    text-decoration: none;
+    justify-content: space-around;
+    margin: 10px;
+    color: #fff;
+}
+footer-link > a:hover{
+    text-decoration: underline;
+}
