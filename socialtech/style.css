@@ -156,47 +156,43 @@ h3{
 }
 /* プロダクト */
 
-.product-flex{
+#product{
+    background-color: #fafafa;
+    margin: 80px 0 80px 0;
+    padding: 10px 40px 0px 40px;
+}
+#product .product-flex{
     display: flex;
-    position: relative;
+    /* position: relative; */
     margin-top: 40px;
-    flex-wrap: nowrap;
-    justify-content: space-between;
+    /* flex-wrap: nowrap; */
+    /* justify-content: space-between; */
+    /* flex-wrap: nowrap; */
 }
 #product-left{
-    position: relative;
-    /* position: absolute; */
-    /* top: 0; */
-    /* left: 0; */
-    width: 100%;
+    /* position: relative; */
+    width: 50%;
     margin-right: 20px;
-    margin-top: 0px;
 }
 #product-right{
-    position: relative;
-    /* position: absolute; */
-    /* top: 100px; */
-    /* left: 50%; */
-    width: 100%;
+    /* position: relative; */
+    width: 50%;
     margin-left: 20px;
-    margin-top: 150px;
-    /* margin-bottom: -150px; */
-    /* マージンを定義するならここじゃないかな？しかも、margine-bottom　-150px */
+    margin-top: 80px;
 }
-#produt-left > div{
-    height: 480px;
+#product-left > div{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 420px;
     margin-right:20px;
-    margin-top: 0;
 }
 
 #product-right > div{
-    top: 0px;
-    height: 10px;
+    position: relative;
+    height: 420px;
     margin-left: 20px;
-    margin-top: 0px;
-    /* margin-bottom: 150px; */
-    /* なんでここにmargin-bottomが必要なのか分からない。入れるとしても-150pxじゃないのかな？*/
-    /* 上の写真と下の写真を分割するときに必要なマージン　by先生 */
+    margin-bottom: 10px;
 }
 
 .product-photo{
@@ -205,13 +201,10 @@ h3{
 
 .product-explain{
     background-color: #ffffff;
-    position: relative;
-    /* なんでここにposition:relativeなの？ */
-    /* relative のボトムからの距離を下のそれで指定。結果写真とテキストが重なった感じにできる。
-    その為にrelativeの設定が必要 */
+    position: absolute;
     left: 0px;
-    bottom: 100px;
-    margin: 10px 40px 10px;
+    bottom: 50px;
+    margin: 0px 40px 0px;
     padding: 20px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
 
@@ -239,7 +232,7 @@ h3{
 }
 #product-more a{
     position: relative;
-    bottom: 42px;
+    bottom: 10px;
 }
 
 /* about us */
