@@ -249,7 +249,9 @@ h3{
 
 .culture-img{
     width: 50%;
-    align-self: flex-start;
+    height:auto;
+    object-fit: cover;
+    /* align-self: flex-start; */
 }
 .culture-img2{
     margin-top: 50px;
